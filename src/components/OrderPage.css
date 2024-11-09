@@ -1,0 +1,69 @@
+/* orders.css */
+
+.orders-container {
+  width: 80%;
+  max-height: 80vh; /* Set maximum height to enable scrolling within the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orders-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.order-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.order-item p {
+  font-size: 1.1rem;
+  color: #777;
+  margin: 5px 0;
+}
+
+.order-items {
+  margin-top: 10px;
+}
+
+.order-item-details {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.order-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.order-item-info {
+  flex: 1;
+}
+
+.order-item-info h4 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+hr {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}

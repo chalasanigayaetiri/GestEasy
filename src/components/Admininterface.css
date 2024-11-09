@@ -1,0 +1,134 @@
+/* Reset body and html overflow */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure full height */
+  overflow: hidden; /* Prevent body overflow */
+}
+
+/* Admin Interface container */
+.admin-interface {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Ensure it takes at least the full height */
+  overflow-y: auto; /* Make content inside scrollable if it overflows */
+  box-sizing: border-box; /* Include padding in the height calculation */
+  background-color: #f4f4f9;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Heading styles */
+h2,
+h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Manage Artists Section */
+.artist-list,
+.artwork-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Artist or Artwork card */
+.artist-card,
+.artwork-card {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.artist-card:hover,
+.artwork-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhance hover effect */
+}
+
+/* Button Styling */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Space between buttons */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+/* Artist actions buttons (Approve/Delete) */
+.artist-actions button,
+.artwork-actions button {
+  background-color: #4caf50;
+}
+
+.artist-actions button:hover,
+.artwork-actions button:hover {
+  background-color: #45a049;
+}
+
+.artwork-actions button {
+  background-color: #ff9800; /* Reject button color */
+}
+
+.artwork-actions button:hover {
+  background-color: #f57c00;
+}
+
+/* Manage Artists and Artworks Section Titles */
+h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Manage Artists or Artworks Paragraph */
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Add space between the cards and button section */
+.artist-actions,
+.artwork-actions {
+  margin-top: 10px;
+}
+
+/* Logout Button Styling */
+button.logout-button {
+  background-color: #f44336; /* Red color for logout button */
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+button.logout-button:hover {
+  background-color: #d32f2f;
+}
