@@ -17,16 +17,19 @@ const Feedback = () => {
 
   return (
     <div className="feedback-container">
-      <h2>Leave Your Feedback</h2>
-      <form onSubmit={handleSubmit}>
-        <textarea
-          placeholder="Enter your feedback here..."
-          value={feedbackText}
-          onChange={(e) => setFeedbackText(e.target.value)}
-          required
-        />
-        <button type="submit">Submit Feedback</button>
-      </form>
+      <label>
+        Feedback:
+        <h2>Leave Your Feedback</h2>
+        <form onSubmit={handleSubmit}>
+          <textarea
+            placeholder="Enter your feedback here..."
+            value={feedbackText}
+            onChange={(e) => setFeedbackText(e.target.value)}
+            required
+          />
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </label>
     </div>
   );
 };

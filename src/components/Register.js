@@ -100,49 +100,64 @@ const Register = () => {
           ) : (
             <form onSubmit={handleRegister}>
               <div className="form-group">
-                <input
-                  type="text"
-                  placeholder="First Name"
-                  value={firstName}
-                  onChange={(e) => setFirstName(e.target.value)}
-                  required
-                />
+                <label>
+                  First Name:
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    value={firstName}
+                    onChange={(e) => setFirstName(e.target.value)}
+                    required
+                  />
+                </label>
               </div>
               <div className="form-group">
-                <input
-                  type="text"
-                  placeholder="Last Name"
-                  value={lastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                  required
-                />
+                <label>
+                  Last Name:
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    value={lastName}
+                    onChange={(e) => setLastName(e.target.value)}
+                    required
+                  />
+                </label>
               </div>
               <div className="form-group">
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
+                <label>
+                  Email:
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
+                </label>
               </div>
               <div className="form-group">
-                <input
-                  type="password"
-                  placeholder="Create a Password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  required
-                />
+                <label>
+                  Password:
+                  <input
+                    type="password"
+                    placeholder="Create a Password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                  />
+                </label>
               </div>
               <div className="form-group">
-                <input
-                  type="password"
-                  placeholder="Confirm Password"
-                  value={confirmPassword}
-                  onChange={(e) => setConfirmPassword(e.target.value)}
-                  required
-                />
+                <label>
+                  Confirm Password
+                  <input
+                    type="password"
+                    placeholder="Confirm Password"
+                    value={confirmPassword}
+                    onChange={(e) => setConfirmPassword(e.target.value)}
+                    required
+                  />
+                </label>
               </div>
               <div className="form-group">
                 <label htmlFor="role">Select Role:</label>

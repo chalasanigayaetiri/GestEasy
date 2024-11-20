@@ -161,7 +161,6 @@ const AdminInterface = () => {
           ) : (
             artists.map((artist) => (
               <div key={artist.id} className="artist-card">
-                <h4>{artist.name}</h4>
                 <p>{artist.email}</p>
                 <p>Role: {artist.role}</p>
                 <p>Status: {artist.isApproved ? "Approved" : "Pending"}</p>

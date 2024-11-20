@@ -14,7 +14,7 @@
 .orders-container h2 {
   text-align: center;
   font-size: 2rem;
-  color: #333;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -28,12 +28,12 @@
 
 .order-item h3 {
   font-size: 1.5rem;
-  color: #333;
+  color: black;
 }
 
 .order-item p {
   font-size: 1.1rem;
-  color: #777;
+  color: black;
   margin: 5px 0;
 }
 
@@ -60,7 +60,7 @@
 
 .order-item-info h4 {
   font-size: 1.2rem;
-  color: #333;
+  color: black;
 }
 
 hr {

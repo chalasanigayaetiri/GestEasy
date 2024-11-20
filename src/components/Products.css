@@ -94,7 +94,7 @@
 }
 
 .feedback-card strong {
-  color: #007bff;
+  color: black;
 }
 .navbar {
   background-color: #00fef1; /* Same color as the navbar in Login.js */

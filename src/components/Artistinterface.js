@@ -61,42 +61,50 @@ const ArtistInterface = () => {
 
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Title:</label>
-          <input
-            type="text"
-            name="title"
-            value={artworkDetails.title}
-            onChange={handleChange}
-          />
+          <label>
+            Title:
+            <input
+              type="text"
+              name="title"
+              value={artworkDetails.title}
+              onChange={handleChange}
+            />
+          </label>
         </div>
 
         <div>
-          <label>Description:</label>
-          <textarea
-            name="description"
-            value={artworkDetails.description}
-            onChange={handleChange}
-          />
+          <label>
+            Description:
+            <textarea
+              name="description"
+              value={artworkDetails.description}
+              onChange={handleChange}
+            />
+          </label>
         </div>
 
         <div>
-          <label>Price:</label>
-          <input
-            type="number"
-            name="price"
-            value={artworkDetails.price}
-            onChange={handleChange}
-          />
+          <label>
+            Price:
+            <input
+              type="number"
+              name="price"
+              value={artworkDetails.price}
+              onChange={handleChange}
+            />
+          </label>
         </div>
 
         <div>
-          <label>Image URL:</label>
-          <input
-            type="text"
-            name="imageUrl"
-            value={artworkDetails.imageUrl}
-            onChange={handleChange}
-          />
+          <label>
+            Image URL:
+            <input
+              type="text"
+              name="imageUrl"
+              value={artworkDetails.imageUrl}
+              onChange={handleChange}
+            />
+          </label>
         </div>
 
         <button type="submit" disabled={loading}>

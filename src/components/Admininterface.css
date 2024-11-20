@@ -30,7 +30,7 @@ body {
 /* Heading styles */
 h2,
 h3 {
-  color: #333;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -61,7 +61,7 @@ h3 {
 /* Button Styling */
 button {
   background-color: #4caf50;
-  color: white;
+  color: button;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -121,7 +121,7 @@ p {
 /* Logout Button Styling */
 button.logout-button {
   background-color: #f44336; /* Red color for logout button */
-  color: white;
+  color: black;
   padding: 15px 25px;
   border: none;
   border-radius: 5px;

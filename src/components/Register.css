@@ -33,7 +33,7 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 16px;
   transition: color 0.3s ease;
 }
@@ -107,7 +107,7 @@
   padding: 14px; /* Increase padding for button */
   font-size: 16px;
   background-color: #00fef1;
-  color: white;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
